@@ -8,6 +8,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 }
 resource "aws_s3_bucket" "terrateam_bucket" {
-  bucket = "terrateam-dev01"
+  bucket = "terrateam-dev0101"
   acl    = "private"
 }
